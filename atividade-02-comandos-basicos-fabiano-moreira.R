@@ -150,6 +150,12 @@ aula_programacao$times_futebol <- as.factor(aula_programacao$times_futebol) #alt
 
 rbind (aula_programacao, variaveis = c(sapply(aula_programacao, class))) #Acrescenta na uma
 #linha final exibindo informações 
+# Informações do professor! Senão seus dados ficarão sem sentido. Ex.:
+rbin(aula_programacao, data.frame(nomes = "Neylson",
+                                  idades = 31,
+                                  cursos = "CD",
+                                  times_futebol = "América",
+                                  horas_estudo = 5.7))
 
 #11 - Crie uma lista com todos os objetos que você criou neste exercícios. 
 #Exiba a lista. Apresente a classe da lista.
